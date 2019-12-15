@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main()
+{
+    double m,n,a;
+    while(scanf("%lf%lf%lf",&m,&n,&a)==3){
+        printf("%.0lf\n",ceil(n/a)*ceil(m/a));
+    }
+    return 0;
+}
