@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+ int main()
+ {
+     int k,n,w;
+     cin>>k>>n>>w;
+     w=w*(w+1)/2;
+     int alo=w*k-n;
+      if(alo<=0) alo=0;
+      cout<<alo<<endl;
+ 
+     return 0;
+ }
