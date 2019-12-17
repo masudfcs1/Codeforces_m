@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+  string b,c;
+    int a,pass=1;
+int main()
+{
+ 
+    cin>>a>>b;
+    for(int i=0;i<a-1;i++)
+    {
+      cin>>c;
+      if(b!=c){
+        pass++;
+        b=c;
+      }
+ 
+    }
+    cout<<pass<<endl;
+    return 0;
+}
